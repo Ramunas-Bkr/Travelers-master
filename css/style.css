@@ -6,9 +6,6 @@ body * {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-body {
-
-}
 header {
     display: inline-block;
     width: 100%;
@@ -37,6 +34,7 @@ header {
         display: inline-block;
         width: 20%;
         margin-top: 50px;
+        float: right;
     }
 .hero {
     display: inline-block;
@@ -64,7 +62,7 @@ header {
             display: inline-block;
             font-size: 20px;
             padding-top: 40px;
-            padding-bottom: 60px;
+            padding-bottom: 40px;
             text-shadow: 5px 5px 10px black;
             line-height: 150%;
         }
