@@ -1,0 +1,50 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+
+}
+header {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+    header > img {
+        display: inline-block;
+        width: 160px;
+        float: left;
+        margin: 20px 120px;
+    }
+    header > li {
+        display: inline-block;
+        width: 40%;
+        margin-top: 50px;
+    }
+            li > a {
+                margin-left: 20px;
+                text-decoration: none;
+                color: black;
+            }
+    header > ol {
+        display: inline-block;
+        width: 20%;
+        margin-top: 50px;
+    }
+.hero {
+    display: inline-block;
+}
+main {
+    display: inline-block;
+}
+section {
+    display: inline-block;
+}
+footer {
+
+}
