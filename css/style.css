@@ -74,18 +74,25 @@ main {
     position: absolute;
     margin-top: -50px;
 }
-    main h2 {
+    main h3 {
         display: inline-block;
         width: 100%;
         margin-top: 440px;
         color: white;
         text-align: center;
-        text-shadow: 5px 5px 10px black;
+        text-shadow: 2px 2px 5px black;
         font-size: 25px;
+        font-weight: normal;
     }
     main > .first {
         display: inline-block;
         width: 33%;
+    }
+    main h4 {
+        display: inline-block;
+    }
+    main p {
+        display: inline-block;
     }
         main > .first > .img-first {
             display: inline-block;
@@ -95,6 +102,13 @@ main {
             background-size: cover;
             background-position: bottom center;
         }
+        main > .first > .block1 {
+            display: inline-block;
+            width: 100%;
+            margin-top: 70px;
+            float: left;
+        }
+        
     main > .second {
         display: inline-block;
         width: 33%;
