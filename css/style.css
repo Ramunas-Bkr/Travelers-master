@@ -43,6 +43,7 @@ header {
     height: 90vh;
     background-size: cover;
     background-position: bottom center;
+    position: relative;
     }
     .hero > .container {
         display: inline-block;
@@ -68,10 +69,59 @@ header {
         }
 main {
     display: inline-block;
+    width: 1200px;
+    margin: 0 calc( (100% - 1200px) / 2);
+    position: absolute;
+    margin-top: -50px;
 }
+    main h2 {
+        display: inline-block;
+        width: 100%;
+        margin-top: 440px;
+        color: white;
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+        font-size: 25px;
+    }
+    main > .first {
+        display: inline-block;
+        width: 33%;
+    }
+        main > .first > .img-first {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            background-image: url(../img/img_2.jpg);
+            background-size: cover;
+            background-position: bottom center;
+        }
+    main > .second {
+        display: inline-block;
+        width: 33%;
+    }
+        main > .second > .img-second {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            background-image: url(../img/img_1.jpg);
+            background-size: cover;
+            background-position: bottom center;
+        }
+        main > .third {
+        display: inline-block;
+        width: 33%;
+        }
+        main > .third > .img-third {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            background-image: url(../img/img_3.jpg);
+            background-size: cover;
+            background-position: bottom center;
+        }
 section {
     display: inline-block;
 }
 footer {
-
+    display: inline-block;
 }
